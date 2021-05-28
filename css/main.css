@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+.hdr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    height: 10vh;
+}
+
+.logo{
+    color: #000;
+    width: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item{
+    display: inline-block; 
+    padding: 0px 10px;
+}
+
+.nav-href{
+    color: #000;
+}
+
+.section-news{
+}
+
+.news{
+    display: flex;
+    align-items: center;
+}
+
+.section-title{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.news-item{
+    margin: 25px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.pre-new-photo{
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.new-text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.new-title{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.new-discription{
+    font-size: 14px;
+}
+
+.section-links{
+    background-color: #f4f4f4;
+}
+
+.links-item{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.about{
+    font-weight: bold;
+}
+
+.about-addres{
+    font-size: 14px;
+}
